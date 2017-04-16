@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<!--//= template/homepage-header.html
+<main class="main-content">
+</main>
+//= template/page-footer.html -->
+<header class="header homepage-header">
+    <div class="header__container">
+        <nav class="header__nav homepage-header__nav">
+            <div class="header__nav-logo"><a href="#"><img src="materials/img/logo-header.png"></a></div>
+            <ul class="header__nav-choose">
+                <li class="nav__link nav__link-white"><a href="#" >Аренда</a></li>
+                <li class="nav__link nav__link-white"><a href="#" >Продажа</a></li>
+                <li class="nav__link nav__link-white"><a href="#" >Посуточно</a></li>
+                <li class="nav__link nav__link-white"><a href="#" > ••• Еще</a></li>
+            </ul>
+            <ul class="header__nav-actions">
+                <li class="nav__link nav__link-white nav__post"><a href="#"><img src="materials/img/plus.png"> Разместить объявление</a></li>
+                <li class="nav__link nav__link-white header__signin"><a href="#">Войти</a></li>
+            </ul>
+        </nav>
+        <h1 class="header__form-name">Поиск недвижимости в Украине</h1>
+        <form class="header__form">
+            <label class="header__select-label select-label">
+                Выберите город
+                <select class="header__select select">
+                    <option class="select-options">Киев</option>
+                    <option class="select-options">Одесса</option>
+                </select>
+            </label>
+            <label class="header__checkbox_main-label">
+                Кол-во комнат
+                <div class="header__checkbox-block">
+                    <label class="header__checkbox_label">
+                        <input type="checkbox" name="room1">
+                        <span class="checkbox-span checkbox_span-white">1</span>
+                    </label>
+                    <label class="header__checkbox_label">
+                        <input type="checkbox" name="room2">
+                        <span class="checkbox-span checkbox_span-white">2</span>
+                    </label>
+                    <label class="header__checkbox_label">
+                        <input type="checkbox" name="room3">
+                        <span class="checkbox-span checkbox_span-white">3</span>
+                    </label>
+                    <label class="header__checkbox_label">
+                        <input type="checkbox" name="room4">
+                        <span class="checkbox-span checkbox_span-white">4</span>
+                    </label>
+                    <label class="header__checkbox_label">
+                        <input type="checkbox" name="room5">
+                        <span class="checkbox-span checkbox_span-white">5+</span>
+                    </label>
+                </div>
+            </label>
+            <button class="btn btn-secondary hedear-form__btn">Перейти к поиску</button>
+        </form>
+    </div>
+</header>
+<section class="offer__finder">
+    <div class="wrapper">
+        <div class="input">
+            <a href="#"><h2>Недвижимость возле метро</h2></a>
+            <ul class="nav">
+                <li><a href="#">Квартиры</a></li>
+                <li><a href="#">Дома</a></li>
+                <li><a href="#">Офисы</a></li>
+            </ul>
+            <select>
+                <option disabled selected>Политехнический институт</option>
+                <option>Нивки</option>
+                <option>Оболонь</option>
+            </select>
+            <a class="show__results" href="listing.html">Показать результаты поиска</a>
+        </div>
+        <img src="materials/img/metro.png">
+    </div>
+</section>
+<section class="best__offer">
+    <h2>Лучшие предложения в Киеве</h2>
+    <div class="slider">
+        <div class="slider_element">
+            <a href="#"> <img class="photo" src="materials/img/offer.png">
+            <a class="cost">7 800 грн <img class="checked" src="materials/img/check.png"></a>
+            <a class="square">2 комн. • 30 кв.м.</a>
+            <a class="location"><img src="materials/img/red_dot.png"> Политехнический институт</a>
+            </a>
+        </div>
+        <div class="slider_element">
+            <a href="#"><img class="photo" src="materials/img/offer.png">
+            <a class="cost">10 200 грн <img class="checked" src="materials/img/check.png"></a>
+            <a class="square">1 комн. • 30 кв. м. </a>
+            <a class="location"><img src="materials/img/red_dot.png"> Политехнический институт</a>
+            </a>
+        </div>
+        <div class="slider_element">
+            <a href="#"><img  class="photo" src="materials/img/offer.png">
+            <a class="cost">6 900 грн <img class="checked" src="materials/img/check.png"></a>
+            <a class="square">2 комн.  •  30 кв.м.</a>
+            <a class="location"><img src="materials/img/red_dot.png"> Политехнический институт</a>
+            </a>
+        </div>
+        <div class="slider_element">
+            <a href="#"><img  class="photo" src="materials/img/offer.png">
+            <a class="cost">9 000 грн <img class="checked" src="materials/img/check.png"></a>
+            <a class="square">2 комн.  •  30 кв.м.</a>
+            <a class="location"><img src="materials/img/red_dot.png"> Политехнический институт</a>
+            </a>
+        </div>
+    </div>
+    <a href="#" class="show__best">Смотреть лучшие ценовые предложения</a>
+</section>
+<section class="last__offer">
+    <h2>Последние объявления в Киеве</h2>
+        <ul class="nav">
+            <li><a href="#">Квартиры</a></li>
+            <li><a href="#">Дома</a></li>
+            <li><a href="#">Офисы</a></li>
+        </ul>
+    <div class="slider">
+        <div class="slider_element">
+            <a href="#"><img  class="photo" src="materials/img/last_offer_1.png">
+            <a class="cost">11 800 грн <img class="checked"  src="materials/img/check.png"></a>
+            <a class="square">2 комн. 48 кв.м.</a>
+            <a class="location"><img src="materials/img/red_dot.png"> Политехнический институт</a>
+            </a>
+        </div>
+        <div class="slider_element">
+            <a href="#"><img  class="photo" src="materials/img/last_offer_2.png">
+            <a class="cost">15 000 грн <img  class="checked" src="materials/img/check.png"></a>
+            <a class="square">3 комн. 100 кв.м.</a>
+            <a class="location"><img src="materials/img/red_dot.png"> Шулявская</a>
+            </a>
+        </div>
+        <div class="slider_element">
+            <a href="#"><img  class="photo" src="materials/img/last_offer_3.png">
+            <a class="cost">11 800 грн <img  class="checked" src="materials/img/check.png"></a>
+            <a class="square">1 комн. 30 кв.м.</a>
+            <a class="location"><img src="materials/img/blue_dot.png.png"> Контрактовая площадь</a>
+            </a>
+        </div>
+        <div class="slider_element">
+            <a href="#"><img  class="photo" src="materials/img/last_offer_4.png">
+            <a class="cost">7 000 грн <img  class="checked" src="materials/img/check.png"></a>
+            <a class="square">2 комн. 40 кв.м.</a>
+            <a class="location">просп. Победы, 18А</a>
+            </a>
+        </div>
+    </div>
+    <a href="#" class="show__best">Смотреть лучшие ценовые предложения</a>
+</section>
+<section class="connection">
+    <div class="top">
+        <h2>Общайтесь в Telegram</h2>
+        <p>Не отвлекайтесь больше на формальности. Получайте моментальные уведомления о новых обьявлениях, общайтесь без ограничений.</p>
+    </div>
+        <ul class="nav">
+            <li><a href="#">Поиск недвижимости</a></li>
+            <li><a href="#">Общение с клиентами</a></li>
+        </ul>
+        <div class="content">
+            <img src="materials/img/phone.png">
+            <div class="telegram">
+                <div class="wrapper">
+                    <div class="top">
+                        <img src="materials/img/telegram.png">
+                        <h2>Telegram</h2>
+                    </div>
+                    <h2>Metrovka Bot</h2>
+                    <ul class="instruction">
+                        <li>1. Собирайте аналитику по объектам</li>
+                        <li>2. Получайте подсказки по эффективному продвижению объявлений</li>
+                        <li>3. Общайтесь с клиентами через специальный канал телекоммуникации</li>
+                    </ul>
+                    <a href="#" class="join">Присоединиться в Telegram</a>
+                </div>
+            </div>
+        </div>
+        <a><img src=""></a>
+</section>
+<section class="blog">
+    <div class="top">
+        <h2>Блог Metrovka</h2>
+        <p>Хитрости, приемы, советы, фото и видео – все о том как продать, купить, сдать в аренду или арендовать недвижимость.</p>
+    </div>
+    <div class="content">
+        <div class="content_element">
+            <a href="#">
+                <img  class="photo" src="materials/img/blog_1.png">
+                <a class="purple">Лайфхак</a>
+                <a class="topic">Киевляне могут оплатить коммуналку через Facebook…</a>
+                <a class="author">Татьяна Малыняк  •  5 мин чтения</a>
+            </a>
+        </div>
+        <div class="content_element">
+            <a href="#">
+                <img  class="photo" src="materials/img/blog_2.png">
+                <a class="green">Совет Metrovka</a>
+                <a class="topic">ТОП-5 самых дешевых квартир Киева</a>
+                <a class="author">Татьяна Малыняк  •  4 мин чтения</a>
+            </a>
+        </div>
+        <div class="content_element">
+            <a href="#">
+                <img  class="photo" src="materials/img/blog_3.png">
+                <a class="blue">Технология</a>
+                <a class="topic">Смарт квартиры: цены, предложения и законность</a>
+                <a class="author">Татьяна Малыняк  •  2 мин чтения</a>
+            </a>
+        </div>
+    </div>
+    <a href="#" class="show__best">Перейти на страницу блога</a>
+</section>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__grid">
+            <div class="footer-grid__item footer-block">
+                <h3 class="footer-block__title">Metrovka</h3>
+                <div class="footer-block__content">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">О компании</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Пресса о нас</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Пользовательское соглашение</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Карта сайта</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Помощь</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-grid__item footer-block">
+                <h3 class="footer-block__title">Партнерство</h3>
+                <div class="footer-block__content">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Как разместить объявление</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Инструменты продвижения</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Правила заполнения объявлений</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-grid__item footer-block">
+                <h3 class="footer-block__title">Узнайте больше</h3>
+                <div class="footer-block__content">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Бонусная программа Bonus+</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Telegram Metrovka Bot</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Как работает поиск</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__item-link">Как пользоваться избранным</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-grid__item footer-block">
+                <h3 class="footer-block__title">Контакты</h3>
+                <div class="footer-block__content">
+                    <ul class="footer-menu">
+                        <ul class=social-icons>
+                            <li class=social-icons__item>
+                                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            </li>
+                            <li class=social-icons__item>
+                                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                            </li>
+                            <li class=social-icons__item>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <li class="footer-menu__item">
+                            <div class="footer-menu__item-address">
+                                ул. Жилянская, 37<br>
+                                <small>Киев, 01033</small>
+                            </div>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__item-link" href="mailto:info@metrovka.ua">info@metrovka.ua</a>
+                        </li>
+                        <a href="#openPopup" class="btn btn-primary footer-menu__btn">Оставить заявку</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__logo">
+            <a href="/"><img src="materials/img/logo-footer.png"></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

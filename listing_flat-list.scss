@@ -1,0 +1,261 @@
+p {
+    margin: 0;
+}
+
+.flat-list {
+    display: block;
+}
+
+.wrap-890 {
+    width: 100%;
+    max-width: 890px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.google-map {
+    display: none;
+}
+
+.flat-list__item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 588px;
+    justify-content: space-between;
+    padding-right: 23px;
+    padding-top: 15px;
+}
+
+.flat-list__pricing-info {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    order: 3;
+    padding: 1em 1em 0 0;
+}
+
+.pricing-info__contacts {
+    display: flex;
+    justify-content: space-between;
+    /*width: 100%;
+    padding-top: 1em;*/
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+.flat-list__item-image {
+    padding-top: 1em;
+    padding-left: 17px;
+    /*display: flex;*/
+    order: 1;
+}
+
+.pricing-info__phone {
+    height: 30px;
+    width: 70px;
+    background: transparent;
+    color: #30AD64;
+    border: 2px solid rgba(48, 174, 99, 0.4);
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.pricing-info__message {
+    height: 30px;
+    width: 70px;
+    background: transparent;
+    border: 2px solid rgba(37, 115, 216, 0.4);
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.pricing-info__usdprice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #9B9B9B;
+    /*flex-flow: column wrap;*/
+    font-size: 14px;
+    padding-bottom: 1em;
+}
+
+.pricing-info__usdprice a {
+    color: #9B9B9B;
+    font-size: 14px;
+}
+
+.flat-list__sliderdiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 48px;
+}
+
+.sliderdiv__next-section {
+    width: 120px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1em;
+}
+
+.sliderdiv__slider {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-info__highprice {
+    width: 140px;
+    height: 36px;
+    background-color: #FFEFEA;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    color: rgba(208, 2, 2, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1em;
+}
+
+.pricing-info__lowprice {
+    width: 140px;
+    height: 36px;
+    background-color: #EAFFF5;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    color: #30AD64;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1em;
+}
+
+.pricing-info__usdrate {
+    padding-left: 0.5em;
+}
+
+.infoicon {
+    padding-left: 0.5em;
+}
+
+.main-info__metro-dist {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+
+.main-info__distance {
+    color: #9B9B9B;
+}
+
+.main-info__metro {
+    padding-right: 1em;
+}
+
+.flat-list__main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 320px;
+    min-height: 190px;
+    order: 2;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.main-info__heading {
+    font-size: 16px;
+    color: #2C74C7;
+}
+
+.main-info__features {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+}
+
+.main-info__area {
+    color: #4A4A4A;
+    font-size: 12px;
+}
+
+.main-info__details {
+    font-size: 13px;
+}
+
+.pricing-info__uaprice {
+    font-size: 18px;
+    color: #4A4A4A;
+    padding-bottom: 0.2em;
+}
+
+.pricing-info-currency-ua {
+    display: flex;
+}
+
+.pricing-info-currency-usd {
+    display: flex;
+}
+
+.pricing-info-currency-rate {
+    display: flex;
+}
+
+.block_1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.block_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.pricing-info-high {
+    display: flex
+}
+
+.pricing-info-low {
+    display: flex
+}
+
+.hack {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
